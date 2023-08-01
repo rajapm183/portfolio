@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Project\\Astron"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
