@@ -1,0 +1,4084 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .carousel-control .glyphicon-chevron-right {
+    display: none !important;
+  }
+  .items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+  }
+  .slick-slide {
+    margin: 10px;
+  }
+  .slick-slide img {
+    width: 100%;
+    border: 0px solid #fff;
+  }
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+  .slick-prev:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+  .carousel-control .glyphicon-chevron-left {
+    display: none !important;
+  }
+  p {
+    font-size: 15.6px;
+  }
+  .ptb-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .ptb-75 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .pt-75 {
+    padding-top: 35px;
+  }
+  .pb-75 {
+    padding-bottom: 35px;
+  }
+  .section-title {
+    padding-right: 0;
+    margin-bottom: 30px;
+    margin-top: -4px;
+  }
+  .section-title .title {
+    font-size: 24px;
+    margin-bottom: -3px;
+  }
+  .section-title .title .trending {
+    margin-left: 7px;
+    font-size: 30px;
+    top: 2px;
+  }
+  .section-title .title .nav-tabs {
+    top: 0;
+    padding: 0;
+    border: none;
+    display: block;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .section-title .title .nav-tabs .nav-item {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .section-title .title .nav-tabs .nav-item .nav-link {
+    background-color: #f9f9f9;
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .section-title .title .form-select,
+  .section-title .title .custom-select {
+    margin-right: 0;
+  }
+  .section-title .title .form-select .custom-select__option--value,
+  .section-title .title .custom-select .custom-select__option--value {
+    font-size: 24px;
+    padding: 0 21px 0 0;
+  }
+  .section-title .title .form-select .custom-select__option--value::after,
+  .section-title .title .custom-select .custom-select__option--value::after {
+    font-size: 15px;
+  }
+  .section-title .title .form-select .custom-select__dropdown,
+  .section-title .title .custom-select .custom-select__dropdown {
+    width: 120px;
+    padding: 5px;
+    left: -25px;
+  }
+  .section-title
+    .title
+    .form-select
+    .custom-select__dropdown
+    .custom-select__option,
+  .section-title
+    .title
+    .custom-select
+    .custom-select__dropdown
+    .custom-select__option {
+    padding: 8px 13px;
+    font-size: 14px;
+  }
+  .section-title .title .nfts-filter {
+    top: 0;
+    display: block;
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .section-title .title .nfts-filter li {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .section-title .title .nfts-filter li .filter-dropdown .dropdown-toggle {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 38px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .section-title .title .nfts-filter li .filter-dropdown .dropdown-toggle i {
+    font-size: 17px;
+    left: 15px;
+  }
+  .section-title .title .nfts-filter li .filter-dropdown .filter-dropdown-menu {
+    width: 200px;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li {
+    display: block;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li
+    .blockchain-item {
+    font-size: 13px;
+    padding-left: 35px;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li
+    .blockchain-item
+    img {
+    width: 25px;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li:last-child {
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 15px;
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li
+    .default-btn {
+    font-size: 13px;
+    padding: 8px 25px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-toggle {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 38px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-toggle i {
+    font-size: 17px;
+    left: 15px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-menu {
+    width: 200px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-menu li {
+    display: block;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-menu li button {
+    font-size: 13px;
+    padding-left: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-menu li button i {
+    font-size: 15px;
+  }
+  .section-title .title .nfts-filter li:first-child {
+    margin-top: 0;
+  }
+  .section-title .link-btn {
+    position: relative;
+    padding: 6px 20px;
+    margin-top: 10px;
+    -webkit-transform: unset;
+    transform: unset;
+    font-size: 13px;
+    top: 0;
+  }
+  .section-title .sort-by {
+    position: relative;
+    -webkit-transform: unset;
+    transform: unset;
+    margin-top: 15px;
+    right: 0;
+    top: 0;
+  }
+  .section-title .sort-by span {
+    padding-left: 22px;
+    font-size: 13px;
+    left: 20px;
+  }
+  .section-title .sort-by span i {
+    font-size: 15px;
+  }
+  .section-title .sort-by .form-select,
+  .section-title .sort-by .custom-select {
+    position: relative;
+  }
+  .section-title .sort-by .form-select .custom-select__option--value,
+  .section-title .sort-by .custom-select .custom-select__option--value {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .section-title
+    .sort-by
+    .form-select
+    .custom-select__dropdown
+    .custom-select__option,
+  .section-title
+    .sort-by
+    .custom-select
+    .custom-select__dropdown
+    .custom-select__option {
+    padding: 11px 12px 11px;
+    font-size: 13px;
+  }
+  .section-title.style-two::before {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .section-title .shorting-menu {
+    margin-bottom: -15px;
+  }
+  .section-title .shorting-menu .filter {
+    padding: 0 0 0 22px;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .section-title .shorting-menu .filter i {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .default-btn {
+    padding: 11px 28px;
+    font-size: 13px;
+  }
+  .main-banner-area {
+    padding-top: 60px;
+  }
+  .main-banner-area .container-fluid {
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .main-banner-content {
+    top: 0;
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  .main-banner-content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .main-banner-content .btn-box {
+    margin-top: 15px;
+  }
+  .main-banner-content .btn-box .default-btn {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .main-banner-content .btn-box .default-btn.with-border {
+    margin-left: 7px;
+  }
+  .main-banner-nfts-items {
+    margin-left: 0;
+  }
+  .main-banner-nfts-items .title {
+    margin-bottom: 12px;
+  }
+  .main-banner-nfts-items .title span {
+    font-size: 15px;
+  }
+  .main-banner-nfts-items .title span img {
+    margin-top: -2px;
+  }
+  .main-banner-nfts-items .title span::before {
+    top: 2px;
+  }
+  .main-banner-nfts-items .col-lg-6:nth-child(2) .title {
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
+  .main-banner-nfts-items .col-lg-6:nth-child(2) .single-banner-nfts-item {
+    margin-top: 25px;
+  }
+  .main-banner-nfts-items
+    .col-lg-6:nth-child(2)
+    .single-banner-nfts-item
+    .content {
+    padding: 10px 5px 20px;
+  }
+  .single-banner-nfts-item .content {
+    padding: 20px 5px 10px;
+  }
+  .single-banner-nfts-item .content .author h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .author-collection {
+    margin-right: 15px;
+  }
+  .single-banner-nfts-item .content .author-collection h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author-collection span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .info {
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+  .single-banner-nfts-item .content .info .d-flex {
+    display: block !important;
+  }
+  .single-banner-nfts-item .content .info .price h6 {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .price h3 {
+    margin-bottom: 7px;
+    font-size: 18px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv span {
+    font-size: 16px;
+  }
+  .single-banner-nfts-item
+    .content
+    .info
+    .countdown-timer
+    .clockdiv
+    .smalltext {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .bid-btn {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .main-banner-funfacts {
+    margin-bottom: 20px;
+    position: relative;
+    width: auto;
+    left: 0;
+  }
+  .main-banner-funfacts .box {
+    border-left: none;
+    padding-left: 0;
+  }
+  .main-banner-funfacts .box h3 {
+    font-size: 20px;
+  }
+  .main-banner-funfacts .box span {
+    font-size: 14px;
+  }
+  .banner-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .banner-area .container-fluid {
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .banner-content {
+    margin-bottom: 25px;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .banner-content .btn-box {
+    margin-top: 15px;
+  }
+  .banner-content .btn-box .default-btn {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .banner-content .btn-box .default-btn.with-border {
+    margin-left: 7px;
+  }
+  .banner-nfts-item {
+    max-width: 100%;
+  }
+  .banner-nfts-item .box {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .banner-nfts-item .box .image {
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .banner-nfts-item .box .image img {
+    border-radius: 10px;
+  }
+  .banner-nfts-item .box .content {
+    padding-bottom: 5px;
+  }
+  .banner-nfts-item .box h3 {
+    font-size: 17px;
+  }
+  .banner-nfts-item .box .author a {
+    font-size: 14px;
+  }
+  .banner-nfts-item .box .link-btn {
+    right: 0;
+    top: auto;
+    font-size: 13px;
+    -webkit-transform: unset;
+    transform: unset;
+    margin-top: 15px;
+    position: relative;
+  }
+  .meet-nofa-box img {
+    border-radius: 5px;
+  }
+  .meet-nofa-box .popup-video {
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    bottom: auto;
+    font-size: 20px;
+  }
+  .meet-nofa-box .content {
+    border-radius: 5px;
+    display: block;
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .meet-nofa-box .content h2 {
+    padding-left: 0;
+    font-size: 24px;
+  }
+  .meet-nofa-box .content h2::before {
+    display: none;
+  }
+  .partner-area .title {
+    font-size: 14px;
+  }
+  .partner-item {
+    margin-top: 15px;
+  }
+  .about-image {
+    padding-right: 0;
+    margin-bottom: 25px;
+  }
+  .about-content {
+    padding-left: 0;
+  }
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .single-funfacts-box img {
+    margin-bottom: 20px;
+  }
+  .single-funfacts-box h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .single-funfacts-box span {
+    font-size: 14px;
+  }
+  .nfts-area .container-fluid {
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .single-nfts-item {
+    padding: 5px;
+  }
+  .single-nfts-item .image .countdown-timer h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-nfts-item .image .countdown-timer .clockdiv span {
+    font-size: 18px;
+  }
+  .single-nfts-item .image .countdown-timer .clockdiv .smalltext {
+    font-size: 14px;
+  }
+  .single-nfts-item .content h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .single-nfts-item .content .bid-btn {
+    padding: 12px 30px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .single-nfts-item .content .dropdown .dropdown-menu {
+    max-height: 160px;
+  }
+  .single-nfts-item .content .dropdown .dropdown-menu li .dropdown-item {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  .single-nfts-item .content .favorite {
+    padding: 0 0 0 20px;
+  }
+  .single-nfts-item .content .favorite i {
+    font-size: 15px;
+    margin-top: 1px;
+  }
+  .single-nfts-box .image .info {
+    padding: 15px;
+  }
+  .single-nfts-box .image .info .author h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .image .info .author span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-nfts-box .image .info .author-collection h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .image .info .author-collection span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-nfts-box .content {
+    padding: 20px 5px 10px;
+  }
+  .single-nfts-box .content .info .price h6 {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .price h3 {
+    margin-bottom: 7px;
+    font-size: 16px;
+  }
+  .single-nfts-box .content .info .countdown-timer {
+    margin-left: 10px;
+  }
+  .single-nfts-box .content .info .countdown-timer h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 10px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv span {
+    font-size: 16px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .smalltext {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .bid-btn {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .nfts-slides.owl-theme .owl-nav {
+    opacity: 1;
+    text-align: start;
+    margin-bottom: 25px;
+    visibility: visible;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"] {
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    position: relative;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: 0;
+    right: 0;
+    margin-right: 0;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"].owl-prev {
+    margin-left: 0;
+  }
+  .shorting-menu {
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .shorting-menu .filter {
+    padding: 0 0 0 22px;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .shorting-menu .filter i {
+    font-size: 16px;
+  }
+  .load-more__btn-wrap {
+    margin-top: 5px;
+  }
+  .load-more__btn-wrap .load-more__btn {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .filter-by-checkbox .d-flex {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .filter-by-checkbox ul li {
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+  .filter-by-checkbox ul li span {
+    top: 1px;
+  }
+  .filter-by-checkbox span {
+    top: 0;
+    font-size: 13px;
+    margin-right: 0;
+  }
+  .nfts-sidebar {
+    padding-right: 0;
+    margin-bottom: 25px;
+  }
+  .nfts-sidebar .box {
+    margin-bottom: 25px;
+  }
+  .nfts-sidebar .box h3 {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .nfts-sidebar .box .custom-checkbox li .form-check {
+    padding-left: 27px;
+  }
+  .nfts-sidebar .box .custom-checkbox li .form-check span {
+    font-size: 14px;
+  }
+  .item-details-header {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-image {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-content {
+    padding: 20px 15px;
+  }
+  .item-details-header .item-details-content h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .item-details-header .item-details-content .published-date {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .item-details-header .item-details-content .info {
+    margin-bottom: 25px;
+  }
+  .item-details-header .item-details-content .info .author {
+    padding-right: 0;
+    border-right-width: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .item-details-header .item-details-content .info .author span {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .info .author a {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .info .author img {
+    width: 28px;
+    margin-right: 8px;
+  }
+  .item-details-header .item-details-content .countdown-timer h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .countdown-timer .clockdiv span {
+    margin-bottom: 3px;
+    font-size: 20px;
+  }
+  .item-details-header
+    .item-details-content
+    .countdown-timer
+    .clockdiv
+    .smalltext {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .sold-info {
+    padding: 15px;
+  }
+  .item-details-header .item-details-content .sold-info .action-btn {
+    position: relative;
+    margin-top: 10px;
+    -webkit-transform: unset;
+    transform: unset;
+    right: 0;
+    top: 0;
+  }
+  .item-details-header
+    .item-details-content
+    .sold-info
+    .action-btn
+    .default-btn {
+    padding: 10px 25px;
+  }
+  .item-details-header
+    .item-details-content
+    .sold-info
+    .action-btn
+    .default-btn:nth-child(2) {
+    margin-left: 8px;
+  }
+  .item-details-header .item-details-content .sold-info span {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .sold-info .price {
+    font-size: 18px;
+  }
+  .item-details-header .item-details-content .owned-by {
+    margin-top: 20px;
+  }
+  .item-details-header .item-details-content .owned-by .owned {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+  .item-details-header .item-details-content .owned-by .owned span {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .owned-by .owned a {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .owned-by .owned a img {
+    width: 30px;
+    margin-right: 8px;
+  }
+  .item-details-header .item-details-content .owned-by .action {
+    margin-top: 20px;
+  }
+  .item-details-description .row {
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .item-details-description .row .col-lg-6 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .item-details-description .row .col-lg-6:nth-child(2) {
+    margin-top: 30px;
+  }
+  .item-details-description .box {
+    margin-bottom: 30px;
+  }
+  .item-details-description h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .item-details-description .provenance-info h4 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .item-details-description .provenance-info h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+  .item-details-description .provenance-info .date {
+    font-size: 14px;
+  }
+  .item-details-description .provenance-info div {
+    font-size: 14px;
+  }
+  .item-details-description .nav {
+    margin-bottom: 25px;
+  }
+  .item-details-description .nav .nav-item {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .item-details-description .nav .nav-item .nav-link {
+    padding-bottom: 2px;
+    font-size: 20px;
+  }
+  .item-details-description .tab-content .tab-pane .title {
+    margin-bottom: 12px;
+  }
+  .item-details-description .tab-content .tab-pane .properties-list li {
+    margin-right: 5px;
+    margin-bottom: 8px;
+  }
+  .item-details-description .tab-content .tab-pane .properties-list li a {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .item-details-description .tab-content .tab-pane .properties-list li a span {
+    font-size: 13px;
+  }
+  .item-details-description .tab-content .tab-pane .properties-list li a h5 {
+    font-size: 14px;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box {
+    padding: 15px;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box .image {
+    display: inline-block;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box .content {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box .content h5 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .item-details-description .tab-content .tab-pane .blockchain {
+    font-size: 14px;
+  }
+  .item-details-description .tab-content .tab-pane .blockchain img {
+    width: 30px;
+    margin-right: 8px;
+  }
+  .item-details-description .information-lists li a {
+    font-size: 14px;
+  }
+  .item-details-description .tags a {
+    font-size: 14px;
+  }
+  .single-collections-box .d-flex {
+    display: block !important;
+  }
+  .single-collections-box .image {
+    display: inline-block;
+  }
+  .single-collections-box .content {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .single-collections-box .content h3 {
+    font-size: 15px;
+  }
+  .single-collections-box .number {
+    right: 0;
+    font-size: 50px;
+  }
+  .single-collections-item {
+    padding: 5px;
+  }
+  .single-collections-item .content {
+    padding: 5px 10px 3px;
+  }
+  .single-collections-item .content .info h3 {
+    font-size: 16px;
+  }
+  .collections-slides.owl-theme .owl-nav {
+    opacity: 1;
+    text-align: start;
+    margin-bottom: 25px;
+    visibility: visible;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"] {
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    position: relative;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: 0;
+    right: 0;
+    margin-right: 0;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"].owl-prev {
+    margin-left: 0;
+  }
+  .single-features-box img {
+    margin-bottom: 20px;
+  }
+  .single-features-box h3 {
+    font-size: 19px;
+    margin-bottom: 7px;
+  }
+  .single-seller-box .d-flex {
+    display: block !important;
+  }
+  .single-seller-box .image {
+    display: inline-block;
+  }
+  .single-seller-box .content {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .single-seller-box .content h3 {
+    font-size: 15px;
+  }
+  .single-seller-box .number {
+    right: 0;
+    font-size: 50px;
+  }
+  .single-create-sell-box {
+    padding: 20px;
+  }
+  .single-create-sell-box .icon {
+    font-size: 40px;
+  }
+  .single-create-sell-box .icon::before {
+    width: 37px;
+    height: 37px;
+    border-radius: 5px;
+  }
+  .single-create-sell-box h3 {
+    font-size: 16px;
+  }
+  .author-collection-header img {
+    border: 2px solid white;
+  }
+  .author-collection-header .author-collection-info {
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-top: -15px;
+    margin-right: 5px;
+  }
+  .author-collection-header .author-collection-info .image i {
+    line-height: 25px;
+    font-size: 13px;
+    height: 20px;
+    bottom: -1px;
+    width: 20px;
+    right: -1px;
+  }
+  .author-collection-header .author-collection-info .author .content {
+    margin-left: 18px;
+  }
+  .author-collection-header .author-collection-info .author .content h3 {
+    margin-bottom: 9px;
+    font-size: 17px;
+  }
+  .author-collection-header .author-collection-info .author .content button {
+    font-size: 13px;
+  }
+  .author-collection-header .author-collection-info .action {
+    margin-top: 20px;
+  }
+  .author-collection-header .author-collection-info .action ul li {
+    margin-bottom: 10px;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-two
+    .dropdown-menu
+    li
+    .dropdown-item {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-one
+    .dropdown-menu
+    h3 {
+    font-size: 14px;
+  }
+  .author-collection-header .author-collection-info .action ul li .custom-btn {
+    top: 5px;
+    margin-left: 0;
+    font-size: 13px;
+    padding: 8px 25px;
+  }
+  .author-collection-header .author-collection-info .info {
+    margin-top: 10px;
+  }
+  .author-collection-header .author-collection-info .info ul {
+    margin-bottom: -15px;
+    border-radius: 0;
+    border: none;
+  }
+  .author-collection-header .author-collection-info .info ul li {
+    border-right: none;
+    font-size: 15px;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .author-collection-header .author-collection-info .info ul li span {
+    margin-bottom: 3px;
+    font-size: 13px;
+  }
+  .author-collection-header .author-collection-info .info ul li:last-child {
+    margin-right: 0;
+  }
+  .author-collection-tabs {
+    margin-top: 30px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .author-collection-tabs .nav {
+    margin-bottom: 25px;
+  }
+  .author-collection-tabs .nav .nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  }
+  .author-collection-tabs .nav .nav-item .nav-link {
+    border-bottom: none;
+    font-size: 16px;
+    padding: 0;
+  }
+  .author-collection-tabs .nav .nav-item .nav-link::before {
+    display: none;
+  }
+  .team-card {
+    padding: 20px;
+  }
+  .team-card img {
+    margin-bottom: 20px;
+  }
+  .team-card h3 {
+    margin-bottom: 8px;
+    font-size: 19px;
+  }
+  .single-activity-box {
+    padding: 10px;
+  }
+  .single-activity-box .content {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .single-activity-box .content h3 {
+    font-size: 15px;
+  }
+  .single-activity-box .content .category {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .activity-sidebar {
+    padding-left: 0;
+    margin-top: 5px;
+  }
+  .activity-sidebar .box {
+    margin-bottom: 25px;
+  }
+  .activity-sidebar .box h3 {
+    font-size: 15px;
+  }
+  .activity-sidebar .box .custom-checkbox li .form-check {
+    padding-left: 28px;
+  }
+  .activity-sidebar .box:last-child {
+    margin-bottom: 25px;
+  }
+  .nfts-data-table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nfts-data-table .dataTables_length {
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  .nfts-data-table #myTable_filter {
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  .nfts-data-table .dataTable thead tr th {
+    padding: 10px 40px 10px 15px;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .nfts-data-table .dataTable thead tr th:last-child {
+    padding-right: 15px;
+  }
+  .nfts-data-table .dataTable tbody tr td {
+    padding: 10px 40px 10px 15px;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .nfts-data-table .dataTable tbody tr td h3 {
+    margin-left: 10px;
+    font-size: 13.5px;
+  }
+  .nfts-data-table .dataTable tbody tr td:last-child {
+    padding-right: 15px;
+  }
+  .nfts-data-table .dataTable tbody tr td.price img {
+    margin-right: 5px;
+    margin-left: 30px;
+  }
+  .nfts-data-table .dataTable tbody tr td .link-btn {
+    padding: 9px 20px 8px;
+    font-size: 13.5px;
+  }
+  .nfts-data-table .dataTables_info {
+    padding-top: 0;
+    text-align: start;
+  }
+  .market-health-list li {
+    width: 99.8%;
+    padding: 15px;
+  }
+  .market-health-list li h3 {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .market-health-list li .title .name {
+    margin-bottom: 3px;
+  }
+  .become-a-partner-form {
+    padding: 20px;
+    max-width: 100%;
+  }
+  .become-a-partner-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .become-a-partner-form form .form-group input,
+  .become-a-partner-form form .form-group textarea {
+    font-size: 14px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px;
+  }
+  .become-a-partner-form form .form-group .form-select {
+    font-size: 14px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px;
+  }
+  .become-a-partner-form form .form-group textarea {
+    height: auto;
+  }
+  .how-it-works-content {
+    max-width: 100%;
+    margin-left: 18px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+  }
+  .how-it-works-content .number {
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .how-it-works-content .box span {
+    font-size: 14px;
+  }
+  .how-it-works-content .box h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .how-it-works-content .content {
+    padding-bottom: 25px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .artists-slides.owl-theme .owl-nav {
+    top: -62px;
+  }
+  .artists-slides.owl-theme .owl-nav [class*="owl-"] {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .single-artists-item {
+    border-radius: 10px;
+    text-align: center;
+  }
+  .single-artists-item .d-flex {
+    display: block !important;
+  }
+  .single-artists-item .image {
+    display: inline-block;
+  }
+  .single-artists-item .content {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .single-artists-item .content h3 {
+    font-size: 15px;
+  }
+  .single-artists-item .number {
+    right: 0;
+    font-size: 50px;
+  }
+  .gateway-area {
+    background-image: unset;
+  }
+  .gateway-nfts {
+    padding-right: 0;
+  }
+  .gateway-nfts .box {
+    border: 1px solid #eeeeee;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .gateway-nfts .box .image {
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .gateway-nfts .box .image a {
+    border-radius: 10px;
+  }
+  .gateway-nfts .box .content {
+    padding-bottom: 5px;
+  }
+  .gateway-nfts .box h3 {
+    font-size: 15px;
+  }
+  .gateway-nfts .box .author a {
+    font-size: 14px;
+  }
+  .gateway-nfts .box .icon {
+    right: 0;
+  }
+  .gateway-nfts .col-lg-6:nth-child(2) {
+    margin-top: 0;
+  }
+  .gateway-content h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .gateway-content p {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .gateway-content .btn-box {
+    margin-top: 0;
+  }
+  .gateway-content .btn-box .default-btn {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .gateway-content .btn-box .default-btn:nth-child(2) {
+    margin-left: 0;
+  }
+  .single-category-box {
+    padding: 15px;
+    text-align: center;
+  }
+  .single-category-box .d-flex {
+    display: block !important;
+  }
+  .single-category-box .icon {
+    width: 55px;
+    height: 55px;
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .single-category-box h3 {
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .create-types-area p {
+    font-size: 14px;
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  .single-create-types-box {
+    padding: 0 20px 20px;
+  }
+  .single-create-types-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .single-create-types-box img {
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  .create-nfts-inner .create-nfts-form {
+    padding-right: 0;
+  }
+  .create-nfts-inner .create-nfts-form .form-group {
+    margin-bottom: 20px;
+  }
+  .create-nfts-inner .create-nfts-form .form-group .select-blockchain {
+    margin-bottom: -12px;
+  }
+  .create-nfts-inner .create-nfts-form .form-group .select-blockchain.d-flex {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .create-nfts-inner .create-nfts-form .form-group .select-blockchain li {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .create-nfts-inner .create-nfts-form .form-control {
+    font-size: 14px;
+    height: 50px;
+  }
+  .create-nfts-inner .create-nfts-form label {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .create-nfts-inner .create-nfts-form .file-input .form-control {
+    padding: 35px;
+  }
+  .create-nfts-inner .create-nfts-form .nav-tabs .nav-item {
+    margin-right: 5px;
+  }
+  .create-nfts-inner .create-nfts-form .nav-tabs .nav-item .nav-link {
+    padding: 15px 6.6px;
+    font-size: 13px;
+  }
+  .create-nfts-inner .create-nfts-form .nav-tabs .nav-item .nav-link i {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  .create-nfts-inner .create-nfts-form .tab-content {
+    margin-top: 20px;
+  }
+  .create-nfts-inner .create-nfts-form .form-select {
+    font-size: 14px;
+  }
+  .preview-item {
+    margin-top: 30px;
+  }
+  .preview-item h2 {
+    font-size: 14px;
+  }
+  .page-title-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .page-title-content h1 {
+    font-size: 28px;
+    margin-bottom: -5px;
+    margin-top: -2px;
+  }
+  .page-title-content .sub-title {
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  .page-title-content form {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .page-title-content form label {
+    top: 16px;
+    left: 15px;
+    font-size: 15px;
+  }
+  .page-title-content form .input-search {
+    height: 50px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 3px;
+  }
+  .page-title-content form button {
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 11px 30px;
+    position: relative;
+  }
+  .login-form {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .login-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .login-form form .form-group label {
+    font-size: 13px;
+  }
+  .login-form form .form-group .form-control {
+    padding-left: 15px;
+    font-size: 14px;
+    height: 50px;
+  }
+  .login-form form .lost-your-password-wrap {
+    text-align: start;
+    margin-top: 15px;
+  }
+  .login-form form button {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 13px 25px;
+  }
+  .login-form form .remember-me-wrap .form-check {
+    font-size: 14px;
+  }
+  .register-form {
+    padding-left: 0;
+  }
+  .register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .register-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .register-form form .form-group label {
+    font-size: 13px;
+  }
+  .register-form form .form-group .form-control {
+    padding-left: 15px;
+    font-size: 14px;
+    height: 50px;
+  }
+  .register-form form button {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 13px 25px;
+  }
+  .register-form form .description {
+    font-size: 13px;
+  }
+  .forgot-password-box {
+    padding: 20px;
+    max-width: 100%;
+  }
+  .forgot-password-box h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  .forgot-password-box label {
+    font-size: 13px;
+  }
+  .forgot-password-box .form-control {
+    height: 50px;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .forgot-password-box button {
+    padding: 13px 30px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .faq-accordion-content {
+    max-width: 100%;
+  }
+  .faq-accordion-content .box {
+    padding: 20px;
+  }
+  .faq-accordion-content .accordion .accordion-item {
+    margin-bottom: 15px;
+  }
+  .faq-accordion-content .accordion .accordion-item .accordion-button {
+    font-size: 14px;
+  }
+  .faq-accordion-content h3 {
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  .ask-question-form {
+    padding: 20px;
+    max-width: 100%;
+  }
+  .ask-question-form h3 {
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  .ask-question-form form {
+    margin-top: 0;
+  }
+  .ask-question-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .ask-question-form form .form-group input,
+  .ask-question-form form .form-group textarea {
+    font-size: 14px;
+    height: 50px;
+  }
+  .ask-question-form form .form-group textarea {
+    height: auto;
+  }
+  .nofa-grid-sorting {
+    text-align: center;
+  }
+  .nofa-grid-sorting .ordering {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .nofa-grid-sorting .ordering select {
+    font-size: 14px;
+  }
+  .single-products-box .image .default-btn {
+    opacity: 1;
+    margin-bottom: 15px;
+    visibility: visible;
+  }
+  .single-products-box .content {
+    padding: 20px 15px;
+  }
+  .single-products-box .content h3 {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+  }
+  .single-products-box .content .price span {
+    font-size: 14px;
+  }
+  .cart-table {
+    padding: 0;
+    border-radius: 0;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: transparent;
+  }
+  .cart-table table thead tr th {
+    padding: 0 0 7px;
+    font-size: 14px;
+  }
+  .cart-table table tbody tr td {
+    font-size: 14px;
+    padding-right: 45px;
+  }
+  .cart-table table tbody tr td.product-thumbnail a img {
+    width: 80px;
+    display: block;
+  }
+  .cart-table table tbody tr td.product-thumbnail a h3 {
+    display: block;
+    font-size: 13.5px;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .cart-buttons {
+    margin-top: 20px;
+  }
+  .cart-buttons .shopping-coupon-code {
+    max-width: 100%;
+  }
+  .cart-buttons .shopping-coupon-code .form-control {
+    height: 45px;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .cart-buttons .shopping-coupon-code button {
+    height: 45px;
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 45px;
+  }
+  .cart-buttons .text-end {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  .cart-buttons .default-btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .cart-totals {
+    padding: 20px;
+    max-width: 100%;
+    margin-top: 30px;
+    border-top: none;
+  }
+  .cart-totals ul li:last-child {
+    font-size: 15px;
+  }
+  .user-actions {
+    margin-bottom: 30px;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  .billing-details {
+    margin-bottom: 30px;
+  }
+  .billing-details h3 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  .billing-details label {
+    font-size: 14px;
+  }
+  .billing-details .form-group .form-control {
+    padding-left: 15px;
+    font-size: 14px;
+    height: 50px;
+  }
+  .billing-details .country-select input {
+    font-size: 14px;
+    height: 50px;
+  }
+  .order-details {
+    padding-top: 25px;
+    margin-top: 0;
+  }
+  .order-details h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .order-details .order-table table tbody tr {
+    font-size: 14px;
+  }
+  .order-details .order-table table tbody tr td {
+    padding: 13px 15px;
+  }
+  .order-details .payment-box {
+    padding: 18px;
+  }
+  .order-details .payment-box .payment-method p {
+    font-size: 14px;
+  }
+  .order-details .payment-box .btn-style-one {
+    margin-top: 18px;
+  }
+  .products-details-desc {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .products-details-desc h3 {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
+  .products-details-desc .price {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .products-details-desc .products-add-to-cart .input-counter input {
+    height: 41px;
+    font-size: 15px;
+  }
+  .products-details-desc .products-add-to-cart .input-counter span {
+    font-size: 13px;
+    line-height: 44px;
+  }
+  .products-details-desc .products-add-to-cart .default-btn {
+    padding: 11px 25px;
+  }
+  .products-details-tabs {
+    margin-top: 30px;
+  }
+  .products-details-tabs .nav {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+  .products-details-tabs .nav .nav-item {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .products-details-tabs .nav .nav-item .nav-link {
+    display: block;
+    font-size: 15px;
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .products-details-tabs .nav .nav-item .nav-link::before {
+    display: none;
+  }
+  .products-details-tabs .tab-content .tab-pane .products-review-comments {
+    margin-top: 0;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review {
+    padding-left: 0;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review
+    img {
+    margin-bottom: 15px;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review
+    .review-rating {
+    margin-bottom: 5px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review
+    .review-rating
+    i {
+    font-size: 15px;
+  }
+  .products-details-tabs .tab-content .tab-pane .review-form-wrapper h3 {
+    font-size: 18px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    form
+    button {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 11px 30px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    form
+    .form-group {
+    margin-bottom: 20px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    form
+    .form-group
+    .form-control {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    form
+    .form-group
+    textarea.form-control {
+    padding-top: 15px;
+  }
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    form
+    .form-check {
+    font-size: 14px;
+  }
+  .products-details-tabs .tab-content .tab-pane .table-striped tbody tr td {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .single-connect-wallet-box {
+    padding: 20px;
+  }
+  .single-connect-wallet-box h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .connect-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .connect-area .container-fluid {
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .connect-image {
+    height: auto;
+    margin-bottom: 25px;
+    background-image: unset !important;
+  }
+  .connect-image img {
+    display: inline-block;
+  }
+  .connect-form {
+    padding: 0;
+  }
+  .connect-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .connect-form p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .connect-form form {
+    display: block;
+  }
+  .connect-form form .nav-tabs {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .connect-form form .nav-tabs .nav-item {
+    margin-right: 16px;
+  }
+  .connect-form form .nav-tabs .nav-item .nav-link {
+    padding: 0 0 8px 20px;
+    font-size: 13px;
+  }
+  .connect-form form .nav-tabs .nav-item .nav-link img {
+    top: 3px;
+    width: 14px;
+  }
+  .connect-form form .tab-content ul li button {
+    font-size: 14px;
+  }
+  .coming-soon-content {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .coming-soon-content h2 {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  .coming-soon-content .coming-soon-countdown {
+    margin-top: 10px;
+  }
+  .coming-soon-content .coming-soon-countdown li {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .coming-soon-content .coming-soon-countdown li span {
+    font-size: 30px;
+  }
+  .coming-soon-content form {
+    margin-top: 15px;
+  }
+  .coming-soon-content form .input-newsletter {
+    height: 50px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 0 0 15px;
+  }
+  .coming-soon-content form .default-btn {
+    right: 0;
+    bottom: 0;
+    margin-top: 15px;
+    position: relative;
+  }
+  .not-found-content h3 {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  .not-found-content p {
+    max-width: 100%;
+  }
+  .not-found-content .default-btn {
+    margin-top: 0;
+  }
+  .thank-you-content {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .thank-you-content h3 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .thank-you-content .default-btn {
+    margin-top: 0;
+  }
+  .single-blog-post .content .category {
+    font-size: 13px;
+  }
+  .single-blog-post .content .category::after {
+    border-top-width: 12px;
+  }
+  .single-blog-post .content h3 {
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+  .widget-area {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .widget-area.left-sidebar {
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .widget-area .widget .widget-title {
+    font-size: 17px;
+  }
+  .widget-area .widget_search form .search-field {
+    padding: 0 15px 0 15px;
+    font-size: 14px;
+  }
+  .widget-area .widget_nofa_posts_thumb .item .info {
+    padding-left: 10px;
+  }
+  .widget-area .widget_nofa_posts_thumb .item .info .title {
+    margin-bottom: 5px;
+    font-size: 13.5px;
+  }
+  .widget-area .widget_nofa_posts_thumb .item .info .date {
+    font-size: 13px;
+  }
+  .widget-area .widget_tag_cloud .tagcloud a {
+    font-size: 12.5px;
+  }
+  .blog-details-desc .post-thumb .category {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .blog-details-desc .post-thumb .category::after {
+    border-top-width: 12px;
+  }
+  .blog-details-desc .post-footer .post-tags {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .blog-details-desc .post-footer .article-share {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 15px;
+    text-align: start;
+  }
+  blockquote,
+  .blockquote {
+    padding: 20px !important;
+  }
+  blockquote p,
+  .blockquote p {
+    font-size: 15px !important;
+  }
+  blockquote cite,
+  .blockquote cite {
+    margin-top: 15px;
+  }
+  .comments-area .comments-title {
+    font-size: 17px;
+  }
+  .comments-area .comment-body {
+    padding-left: 0;
+  }
+  .comments-area .comment-body .reply a {
+    font-size: 13px;
+  }
+  .comments-area .comment-author {
+    font-size: 15px;
+  }
+  .comments-area .comment-author .avatar {
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  .comments-area .comment-respond .comment-reply-title {
+    font-size: 17px;
+  }
+  .comments-area .comment-respond .form-group {
+    margin-bottom: 20px;
+  }
+  .comments-area .comment-respond .form-group .form-control {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nofa-updates-area {
+    padding-top: 60px;
+  }
+  .nofa-updates-area .col-lg-5 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .nofa-updates-area .col-lg-4 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .nofa-updates-area .col-lg-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .nofa-updates-area::before {
+    max-width: 100%;
+  }
+  .nofa-updates-content {
+    margin-right: 0;
+  }
+  .nofa-updates-content h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .nofa-updates-content .newsletter-form {
+    padding-right: 0;
+  }
+  .nofa-updates-content .newsletter-form .input-newsletter {
+    font-size: 14px;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nofa-updates-content .newsletter-form button {
+    position: relative;
+    padding: 11px 25px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .app-download-content {
+    margin-top: 25px;
+  }
+  .app-download-content h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .app-download-content .btn-box .app-store-btn {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .app-download-content .btn-box .app-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .app-download-content .btn-box .app-store-btn img {
+    width: 30px;
+    left: 10px;
+    top: 50%;
+  }
+  .app-download-content .btn-box .play-store-btn {
+    font-size: 14px;
+    margin-left: 3px;
+    padding-top: 10px;
+    padding-left: 47px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .app-download-content .btn-box .play-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .app-download-content .btn-box .play-store-btn img {
+    width: 30px;
+    left: 10px;
+    top: 50%;
+  }
+  .nofa-updates-image {
+    margin-top: 25px;
+  }
+  .pagination-area {
+    margin-top: 10px;
+  }
+  .pagination-area .page-numbers {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .pagination-area .page-numbers.next,
+  .pagination-area .page-numbers.prev {
+    line-height: 40px;
+    font-size: 13px;
+  }
+  .contact-info-content {
+    padding-right: 0;
+  }
+  .contact-info-content h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  .contact-info-content ul {
+    margin-top: 20px;
+  }
+  .contact-info-content ul li {
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+  .contact-info-content ul li .icon {
+    width: 60px;
+    height: 70px;
+    font-size: 60px;
+  }
+  .contact-info-content ul li h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  .contact-info-image {
+    margin-top: 25px;
+  }
+  .contact-form {
+    padding: 20px;
+  }
+  .contact-form .section-title.style-two {
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+  .contact-form .section-title.style-two::before {
+    display: none;
+  }
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  .contact-form .form-group label {
+    margin-bottom: 12px;
+    font-size: 13.5px;
+  }
+  .contact-form .form-group .form-control {
+    font-size: 14px;
+    height: 50px;
+  }
+  .community-content .sub-title {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .community-content h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  .community-content .default-btn {
+    margin-top: 0;
+  }
+  .community-image {
+    margin-top: 25px;
+  }
+  .progress-wrap {
+    right: 1rem;
+    bottom: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .progress-wrap:after {
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    font-size: 20px;
+  }
+  .placeABidModal.modal .modal-dialog {
+    max-width: 100%;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content h3 {
+    font-size: 19px;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content form {
+    margin-top: 20px;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content form .form-group {
+    margin-bottom: 20px;
+  }
+  .placeABidModal.modal
+    .modal-dialog
+    .modal-content
+    form
+    .form-group
+    .form-control {
+    font-size: 14px;
+    height: 45px;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content form .info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .signInWalletModal.modal .modal-dialog {
+    max-width: 290px;
+  }
+  .signInWalletModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+  .shareNFTModal.modal .modal-dialog {
+    max-width: 290px;
+  }
+  .shareNFTModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+  .shareNFTModal.modal .modal-dialog .modal-content h3 {
+    font-size: 20px;
+  }
+  .shareNFTModal.modal .modal-dialog .modal-content .social li {
+    margin-right: 5px;
+  }
+  .shareNFTModal.modal .modal-dialog .modal-content .social li a {
+    width: 38px;
+    height: 38px;
+    font-size: 17px;
+  }
+  .reportNFTModal.modal .modal-dialog {
+    max-width: 290px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content h3 {
+    font-size: 20px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content form label {
+    font-size: 14px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content form textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content form .default-btn {
+    margin-top: 15px;
+  }
+  .reportNFTModal.modal .modal-dialog .modal-content .default-btn.with-border {
+    margin-top: 15px;
+  }
+  .signInWalletModal.modal .modal-dialog {
+    max-width: 290px;
+  }
+  .signInWalletModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+  .refresh-alert .alert {
+    padding: 8px 26px 8px 8px;
+    max-width: 290px;
+  }
+  .refresh-alert .alert img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  .refresh-alert .alert p {
+    font-size: 13px;
+  }
+  .refresh-alert .alert .btn-close {
+    right: 10px;
+  }
+  .newsletter-modal {
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .newsletter-modal .newsletter-modal-content {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-image {
+    height: auto;
+    border-radius: 0;
+    background-image: unset !important;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-image img {
+    border-radius: 0;
+    display: inline-block;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content {
+    border-radius: 0;
+    padding: 25px 20px;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content h2 {
+    margin-bottom: 8px;
+    font-size: 21px;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .newsletter-modal
+    .newsletter-modal-content
+    .modal-inner-content
+    form
+    .input-newsletter {
+    font-size: 14px;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content form button {
+    padding: 11px 30px;
+    font-size: 14px;
+  }
+  .newsletter-modal
+    .newsletter-modal-content
+    .modal-inner-content
+    form
+    #validator-newsletter {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .whatNFTModal.modal .modal-dialog {
+    max-width: 290px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content {
+    padding: 20px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content h3 {
+    font-size: 20px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content form label {
+    font-size: 14px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content form textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content form .default-btn {
+    margin-top: 15px;
+  }
+  .whatNFTModal.modal .modal-dialog .modal-content .default-btn.with-border {
+    margin-top: 15px;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .section-title {
+    padding-right: 100px;
+  }
+  .section-title .link-btn {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    padding: 6px 20px;
+    margin-top: 0;
+    top: 50%;
+  }
+  .section-title .title .nfts-filter {
+    display: block;
+  }
+  .section-title .title .nfts-filter li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 0;
+  }
+  .section-title
+    .title
+    .nfts-filter
+    li
+    .filter-dropdown
+    .filter-dropdown-menu
+    li {
+    margin-top: 12px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-menu li {
+    margin-top: 12px;
+  }
+  .main-banner-area .container-fluid {
+    max-width: 540px;
+  }
+  .banner-area .container-fluid {
+    max-width: 540px;
+  }
+  .nofa-updates-content .newsletter-form button {
+    top: 2.5px;
+    right: 2.5px;
+    margin-top: 0;
+    position: absolute;
+  }
+  .nfts-area .container-fluid {
+    max-width: 540px;
+  }
+  .single-nfts-box .image .info {
+    padding: 10px;
+  }
+  .single-nfts-box .image .info .author h6 {
+    font-size: 13px;
+  }
+  .single-nfts-box .image .info .author span {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .single-nfts-box .image .info .author-collection h6 {
+    font-size: 13px;
+  }
+  .single-nfts-box .image .info .author-collection span {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .single-nfts-box .content {
+    padding: 20px 15px 10px;
+  }
+  .single-nfts-box .content .info .d-flex {
+    display: block !important;
+  }
+  .single-nfts-box .content .info .countdown-timer {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .single-activity-box .content {
+    margin-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 18px;
+  }
+  .market-health-list li {
+    width: 49.8%;
+  }
+  .item-details-header .item-details-content {
+    padding: 30px;
+  }
+  .item-details-header .item-details-content .info .author {
+    padding-right: 25px;
+    border-right-width: 1px;
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+  .item-details-header .item-details-content .sold-info {
+    padding: 20px;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box .image {
+    display: block;
+  }
+  .item-details-description .tab-content .tab-pane .bids-box .content {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .placeABidModal.modal .modal-dialog {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .placeABidModal.modal .modal-dialog .modal-content {
+    padding: 30px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .ptb-100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .pt-100 {
+    padding-top: 80px;
+  }
+  .pb-100 {
+    padding-bottom: 80px;
+  }
+  .ptb-75 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .pt-75 {
+    padding-top: 55px;
+  }
+  .pb-75 {
+    padding-bottom: 55px;
+  }
+  .default-btn {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+  .section-title .title {
+    font-size: 28px;
+  }
+  .section-title .title .trending {
+    margin-left: 8px;
+    font-size: 30px;
+    top: 5px;
+  }
+  .section-title .title .form-select .custom-select__option--value,
+  .section-title .title .custom-select .custom-select__option--value {
+    padding: 0 22px 0 0;
+    font-size: 28px;
+  }
+  .section-title .title .form-select .custom-select__option--value::after,
+  .section-title .title .custom-select .custom-select__option--value::after {
+    font-size: 15px;
+  }
+  .section-title .title .nav-tabs {
+    margin-left: 0;
+  }
+  .section-title .title .nav-tabs .nav-item .nav-link {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .section-title .title .nfts-filter {
+    top: 0;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
+  .section-title .title .nfts-filter li {
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .section-title .title .nfts-filter li li {
+    display: block;
+  }
+  .section-title .link-btn {
+    padding: 7px 19px;
+    font-size: 13px;
+  }
+  .section-title .sort-by {
+    position: relative;
+    margin-top: 15px;
+    -webkit-transform: unset;
+    transform: unset;
+    right: 0;
+    top: 0;
+  }
+  .section-title .sort-by .custom-select,
+  .section-title .sort-by .form-select {
+    position: relative;
+  }
+  .main-banner-area {
+    padding-top: 80px;
+  }
+  .main-banner-area .container-fluid {
+    max-width: 720px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .main-banner-content {
+    top: 0;
+    max-width: 100%;
+  }
+  .main-banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .main-banner-content .btn-box {
+    margin-top: 5px;
+  }
+  .main-banner-content .btn-box .default-btn.with-border {
+    margin-left: 10px;
+  }
+  .main-banner-nfts-items {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .main-banner-nfts-items .title span {
+    font-size: 16px;
+  }
+  .main-banner-nfts-items .title span::before {
+    top: 4px;
+    left: 0;
+  }
+  .single-banner-nfts-item .content {
+    padding: 20px 10px 10px;
+  }
+  .single-banner-nfts-item .content .author h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author span {
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .author-collection h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author-collection span {
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 12px;
+  }
+  .single-banner-nfts-item
+    .content
+    .info
+    .countdown-timer
+    .clockdiv
+    .smalltext {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv span {
+    font-size: 17px;
+  }
+  .single-banner-nfts-item .content .info .price h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .price h3 {
+    font-size: 18px;
+  }
+  .single-banner-nfts-item .content .bid-btn {
+    margin-top: 15px;
+  }
+  .main-banner-funfacts {
+    margin-bottom: 25px;
+    position: relative;
+    width: auto;
+    left: 0;
+  }
+  .main-banner-funfacts .box span {
+    font-size: 15px;
+  }
+  .main-banner-funfacts .box h3 {
+    font-size: 22px;
+  }
+  .banner-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .banner-area .container-fluid {
+    max-width: 720px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .banner-content .btn-box {
+    margin-top: 5px;
+  }
+  .banner-content .btn-box .default-btn.with-border {
+    margin-left: 10px;
+  }
+  .banner-nfts-item {
+    margin-top: 25px;
+    max-width: 100%;
+  }
+  .nfts-area .container-fluid {
+    max-width: 720px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .single-nfts-item .content h3 {
+    font-size: 15px;
+  }
+  .shorting-menu {
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .shorting-menu .filter {
+    margin-right: 15px;
+  }
+  .nfts-slides.owl-theme .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"] {
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: auto;
+    right: -20px;
+  }
+  .load-more__btn-wrap .load-more__btn {
+    font-size: 14px;
+  }
+  .shorting-menu .filter {
+    font-size: 14px;
+  }
+  .shorting-menu .filter i {
+    font-size: 19px;
+    margin-top: 0;
+  }
+  .filter-by-checkbox .d-flex {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .filter-by-checkbox span {
+    top: 0;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .filter-by-checkbox ul li {
+    margin-right: 15px;
+  }
+  .filter-by-checkbox ul li span {
+    margin-bottom: 0;
+    top: 1px;
+  }
+  .nfts-sidebar {
+    margin-bottom: 25px;
+    padding-right: 0;
+  }
+  .nfts-sidebar .box {
+    margin-bottom: 25px;
+  }
+  .nfts-sidebar .box h3 {
+    font-size: 17px;
+  }
+  .nfts-sidebar .box .custom-buttons li {
+    width: 25%;
+  }
+  .item-details-header {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-image {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-content {
+    padding: 30px;
+  }
+  .item-details-header .item-details-content h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .item-details-description .row {
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .item-details-description .row .col-lg-6 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .item-details-description .row .col-lg-6:nth-child(2) {
+    margin-top: 35px;
+  }
+  .item-details-description .box {
+    margin-bottom: 35px;
+  }
+  .single-collections-box .content h3 {
+    font-size: 15px;
+  }
+  .single-collections-box .number {
+    right: 0;
+    font-size: 40px;
+  }
+  .single-collections-item .content {
+    padding: 10px 10px 5px;
+  }
+  .single-collections-item .content .info h3 {
+    font-size: 16px;
+  }
+  .collections-slides.owl-theme .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"] {
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: auto;
+    right: -20px;
+  }
+  .single-seller-box .content h3 {
+    font-size: 15px;
+  }
+  .single-seller-box .number {
+    right: 0;
+    font-size: 40px;
+  }
+  .single-create-sell-box {
+    padding: 25px;
+  }
+  .single-create-sell-box .icon {
+    font-size: 50px;
+  }
+  .single-create-sell-box .icon::before {
+    width: 45px;
+    height: 45px;
+  }
+  .single-create-sell-box h3 {
+    font-size: 18px;
+  }
+  .single-artists-item {
+    padding: 10px 10px 2px;
+  }
+  .single-artists-item .content h3 {
+    font-size: 15px;
+  }
+  .artists-slides.owl-theme .owl-nav {
+    top: -71px;
+  }
+  .artists-slides.owl-theme .owl-nav [class*="owl-"] {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .gateway-area {
+    background-image: unset !important;
+  }
+  .gateway-nfts {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .gateway-nfts .box {
+    border: 1px solid #eeeeee;
+  }
+  .gateway-nfts .col-lg-6:nth-child(2) {
+    margin-top: 0;
+  }
+  .gateway-content h2 {
+    font-size: 28px;
+  }
+  .gateway-content p {
+    max-width: 100%;
+  }
+  .gateway-content .btn-box {
+    margin-top: 15px;
+  }
+  .single-category-box {
+    padding: 10px 15px;
+  }
+  .single-category-box .icon {
+    width: 55px;
+    height: 55px;
+    font-size: 28px;
+  }
+  .single-category-box h3 {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .nofa-updates-area {
+    padding-top: 80px;
+  }
+  .nofa-updates-area .col-lg-5 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .nofa-updates-area .col-lg-4 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .nofa-updates-area .col-lg-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .nofa-updates-area .align-items-center {
+    -webkit-box-align: unset !important;
+    -ms-flex-align: unset !important;
+    align-items: unset !important;
+  }
+  .nofa-updates-content {
+    margin-right: 0;
+  }
+  .nofa-updates-content h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .nofa-updates-content .newsletter-form {
+    padding-right: 0;
+  }
+  .nofa-updates-content .newsletter-form .input-newsletter {
+    font-size: 15px;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .nofa-updates-content .newsletter-form button {
+    position: relative;
+    padding: 13px 30px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .app-download-content h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .app-download-content .btn-box .app-store-btn {
+    font-size: 15px;
+    padding-left: 52px;
+    padding-right: 15px;
+  }
+  .app-download-content .btn-box .app-store-btn img {
+    left: 12px;
+    width: 30px;
+  }
+  .app-download-content .btn-box .app-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .app-download-content .btn-box .play-store-btn {
+    font-size: 15px;
+    margin-left: 5px;
+    padding-left: 52px;
+    padding-right: 15px;
+  }
+  .app-download-content .btn-box .play-store-btn img {
+    left: 12px;
+    width: 30px;
+  }
+  .app-download-content .btn-box .play-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .nofa-updates-image {
+    margin-top: 25px;
+  }
+  .page-title-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .page-title-content .sub-title {
+    font-size: 14px;
+  }
+  .page-title-content h1 {
+    font-size: 32px;
+    margin-bottom: -5px;
+    margin-top: 0;
+  }
+  .page-title-content form {
+    max-width: 550px;
+    margin-top: 25px;
+  }
+  .faq-accordion-content {
+    max-width: 100%;
+  }
+  .faq-accordion-content .box {
+    padding: 30px;
+  }
+  .faq-accordion-content .box h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .faq-accordion-content .accordion .accordion-item {
+    margin-bottom: 20px;
+  }
+  .faq-accordion-content .accordion .accordion-item .accordion-button {
+    font-size: 15px;
+  }
+  .ask-question-form {
+    padding: 30px;
+    max-width: 100%;
+  }
+  .ask-question-form h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .ask-question-form form {
+    margin-top: 25px;
+  }
+  .ask-question-form form .form-group input {
+    height: 55px;
+  }
+  .how-it-works-content {
+    max-width: 100%;
+    margin-left: 20px;
+  }
+  .how-it-works-content .content {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .create-types-area p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .single-create-types-box {
+    padding: 5px 20px 25px;
+  }
+  .create-nfts-inner .create-nfts-form {
+    padding-right: 0;
+  }
+  .preview-item {
+    margin-top: 25px;
+  }
+  .author-collection-header img {
+    border-radius: 10px;
+  }
+  .author-collection-header .author-collection-info {
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: -30px;
+    margin-right: 15px;
+  }
+  .author-collection-header .author-collection-info .md-flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .author-collection-header .author-collection-info .author .content {
+    margin-left: 20px;
+  }
+  .author-collection-header .author-collection-info .author .content h3 {
+    font-size: 19px;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-one
+    .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-two
+    .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+  }
+  .author-collection-header .author-collection-info .action ul li .custom-btn {
+    margin-left: 0;
+    padding: 9px 25px;
+  }
+  .author-collection-header .author-collection-info .info {
+    margin-top: 25px;
+  }
+  .author-collection-header .author-collection-info .info ul li {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .author-collection-tabs {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .author-collection-tabs .nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .author-collection-tabs .nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  .activity-sidebar {
+    padding-left: 0;
+  }
+  .activity-sidebar .box:last-child {
+    margin-bottom: 25px;
+  }
+  .market-health-list li {
+    width: 49.85%;
+  }
+  .nfts-data-table {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .nfts-data-table .dataTables_length {
+    float: unset;
+    margin-bottom: 20px;
+  }
+  .nfts-data-table #myTable_filter {
+    float: unset;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .nfts-data-table .dataTable thead tr th {
+    white-space: nowrap;
+    padding: 10px 40px 10px 15px;
+  }
+  .nfts-data-table .dataTable thead tr th:last-child {
+    padding-right: 15px;
+  }
+  .nfts-data-table .dataTable tbody tr td {
+    white-space: nowrap;
+    padding: 10px 40px 10px 15px;
+  }
+  .nfts-data-table .dataTable tbody tr td .link-btn {
+    font-size: 14px;
+  }
+  .nfts-data-table .dataTable tbody tr td.price img {
+    margin-left: 30px;
+  }
+  .nfts-data-table .dataTable tbody tr td:last-child {
+    padding-right: 15px;
+  }
+  .login-form {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .login-form h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .login-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .login-form form .form-group .form-control {
+    height: 50px;
+  }
+  .register-form {
+    padding-left: 0;
+  }
+  .register-form h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .register-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .register-form form .form-group .form-control {
+    height: 50px;
+  }
+  .register-form form .form-group .description {
+    font-size: 14px;
+  }
+  .forgot-password-box {
+    padding: 40px;
+  }
+  .forgot-password-box h2 {
+    font-size: 22px;
+  }
+  .forgot-password-box .form-control {
+    height: 50px;
+  }
+  .meet-nofa-box img {
+    border-radius: 10px;
+  }
+  .meet-nofa-box .content {
+    padding: 30px;
+    margin-left: 15px;
+    margin-top: -30px;
+    margin-right: 15px;
+  }
+  .meet-nofa-box .content h2 {
+    font-size: 28px;
+  }
+  .meet-nofa-box .popup-video {
+    left: 15px;
+    width: 65px;
+    height: 65px;
+    bottom: 145px;
+    font-size: 28px;
+  }
+  .about-image {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .about-content {
+    padding-left: 0;
+  }
+  .about-content h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .single-funfacts-box h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .single-funfacts-box img {
+    margin-bottom: 20px;
+  }
+  .single-funfacts-box span {
+    font-size: 15px;
+  }
+  .team-card {
+    padding: 20px;
+  }
+  .single-features-box h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .become-a-partner-form {
+    padding: 30px;
+    max-width: 100%;
+  }
+  .become-a-partner-form input {
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .become-a-partner-form .form-select {
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .single-products-box .content {
+    padding: 20px 15px;
+  }
+  .single-products-box .content h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  .products-details-desc {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .products-details-desc h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .cart-table {
+    padding: 20px;
+  }
+  .cart-totals {
+    padding: 25px;
+  }
+  .billing-details {
+    margin-bottom: 25px;
+  }
+  .billing-details h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .billing-details .form-group .form-control {
+    height: 50px;
+  }
+  .billing-details .country-select input {
+    height: 50px;
+  }
+  .order-details {
+    margin-top: 5px;
+  }
+  .coming-soon-content {
+    max-width: 530px;
+    padding: 30px;
+  }
+  .widget-area {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .widget-area .widget {
+    margin-bottom: 25px;
+  }
+  .widget-area .widget .widget-title {
+    font-size: 18px;
+  }
+  .widget-area .widget_nofa_posts_thumb .item .thumb {
+    width: 14%;
+  }
+  .widget-area.left-sidebar {
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .single-blog-post .content h3 {
+    font-size: 18px;
+  }
+  .community-content .sub-title {
+    margin-bottom: 13px;
+  }
+  .community-content h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  .community-image {
+    margin-top: 25px;
+  }
+  .single-connect-wallet-box {
+    padding: 25px;
+  }
+  .single-connect-wallet-box h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .connect-form {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+  }
+  .connect-form h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .connect-form p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .connect-form .nav-tabs {
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .connect-form .nav-tabs .nav-item {
+    margin-right: 25px;
+  }
+  .connect-form .tab-content ul li button {
+    font-size: 14px;
+  }
+  .contact-info-content {
+    padding-right: 0;
+  }
+  .contact-info-content h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+  }
+  .contact-info-content ul {
+    margin-top: 25px;
+  }
+  .contact-info-content ul li {
+    margin-bottom: 25px;
+  }
+  .contact-info-content ul li h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .contact-info-image {
+    margin-top: 25px;
+  }
+  .contact-form {
+    padding: 40px;
+  }
+  .contact-form .form-group .form-control {
+    height: 50px;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+  }
+  .newsletter-modal .newsletter-modal-content .modal-inner-content h2 {
+    font-size: 24px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section-title .title .nfts-filter li {
+    margin-left: 10px;
+  }
+  .section-title .title .nfts-filter li .filter-dropdown .dropdown-toggle {
+    font-size: 14px;
+  }
+  .section-title .title .nfts-filter li .dropdown .dropdown-toggle {
+    font-size: 14px;
+  }
+  .section-title .sort-by span {
+    padding-left: 22px;
+    font-size: 14px;
+    left: 20px;
+  }
+  .section-title .sort-by span i {
+    font-size: 15px;
+  }
+  .section-title .sort-by .form-select .custom-select__option--value,
+  .section-title .sort-by .custom-select .custom-select__option--value {
+    font-size: 14px;
+    padding-left: 125px;
+    padding-right: 20px;
+  }
+  .main-banner-area {
+    padding-top: 100px;
+  }
+  .main-banner-area .container-fluid {
+    max-width: 960px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .main-banner-content {
+    max-width: 100%;
+    top: 0;
+  }
+  .main-banner-content h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+  }
+  .main-banner-content .btn-box {
+    margin-top: 20px;
+  }
+  .main-banner-nfts-items {
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .main-banner-funfacts {
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 720px;
+    width: auto;
+    left: 0;
+  }
+  .banner-area .container-fluid {
+    max-width: 960px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .banner-content h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .banner-content .btn-box {
+    margin-top: 20px;
+  }
+  .banner-nfts-item {
+    max-width: 100%;
+  }
+  .nfts-area .container-fluid {
+    max-width: 960px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .single-nfts-item .content .dropdown .dropdown-menu {
+    padding: 5px;
+    max-height: 165px;
+  }
+  .single-nfts-box .image .info {
+    padding: 15px;
+  }
+  .single-nfts-box .content .info .price h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .price h3 {
+    font-size: 15px;
+  }
+  .single-nfts-box .content .info .countdown-timer {
+    margin-left: 10px;
+  }
+  .single-nfts-box .content .info .countdown-timer h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 10px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv span {
+    font-size: 17px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .smalltext {
+    font-size: 13px;
+  }
+  .nfts-slides.owl-theme .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"] {
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .nfts-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: auto;
+    right: -15px;
+  }
+  .shorting-menu .filter {
+    font-size: 14px;
+    margin-right: 15px;
+    padding: 0 0 0 23px;
+  }
+  .shorting-menu .filter i {
+    font-size: 16px;
+  }
+  .item-details-header {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-image {
+    padding-right: 0;
+  }
+  .item-details-header .item-details-content {
+    padding: 35px 20px 35px 0;
+  }
+  .item-details-header .item-details-content h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .item-details-header .item-details-content .published-date {
+    font-size: 15px;
+  }
+  .item-details-header .item-details-content .info .author span {
+    font-size: 15px;
+  }
+  .item-details-header .item-details-content .info .author a {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .info .author img {
+    width: 30px;
+  }
+  .item-details-header .item-details-content .sold-info {
+    padding: 20px;
+  }
+  .item-details-header .item-details-content .sold-info span {
+    font-size: 15px;
+  }
+  .item-details-header .item-details-content .sold-info .price {
+    font-size: 20px;
+  }
+  .item-details-header .item-details-content .sold-info .action-btn {
+    right: 15px;
+  }
+  .item-details-header
+    .item-details-content
+    .sold-info
+    .action-btn
+    .default-btn {
+    font-size: 14px;
+  }
+  .item-details-header
+    .item-details-content
+    .sold-info
+    .action-btn
+    .default-btn:nth-child(2) {
+    margin-left: 10px;
+  }
+  .item-details-header .item-details-content .owned-by {
+    margin-top: 25px;
+  }
+  .item-details-header .item-details-content .owned-by .owned span {
+    font-size: 15px;
+  }
+  .item-details-header .item-details-content .owned-by .owned a {
+    font-size: 14px;
+  }
+  .item-details-header .item-details-content .owned-by .owned a img {
+    width: 30px;
+  }
+  .item-details-description .row {
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .item-details-description .row .col-lg-6 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .single-collections-box .number {
+    right: 0;
+    font-size: 50px;
+  }
+  .collections-slides.owl-theme .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"] {
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .collections-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
+    left: auto;
+    right: -15px;
+  }
+  .single-seller-box .number {
+    right: 0;
+    font-size: 50px;
+  }
+  .single-create-sell-box {
+    padding: 18px;
+  }
+  .single-create-sell-box .icon {
+    font-size: 50px;
+  }
+  .single-create-sell-box .icon::before {
+    width: 45px;
+    height: 45px;
+  }
+  .single-create-sell-box h3 {
+    font-size: 17px;
+  }
+  .artists-slides.owl-theme .owl-nav {
+    top: -75px;
+  }
+  .artists-slides.owl-theme .owl-nav [class*="owl-"] {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .gateway-nfts {
+    padding-right: 0;
+  }
+  .gateway-nfts .box {
+    padding: 10px;
+  }
+  .gateway-nfts .box .image {
+    margin-bottom: 15px;
+  }
+  .gateway-nfts .box .content {
+    padding-bottom: 5px;
+  }
+  .gateway-nfts .box h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .gateway-nfts .col-lg-6:nth-child(2) {
+    margin-top: 50px;
+  }
+  .single-category-box {
+    padding: 10px 15px;
+  }
+  .single-category-box h3 {
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  .single-category-box .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+  }
+  .about-image {
+    padding-right: 0;
+  }
+  .about-content {
+    padding-left: 0;
+  }
+  .about-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .how-it-works-content {
+    max-width: 875px;
+  }
+  .create-nfts-inner .create-nfts-form {
+    padding-right: 0;
+  }
+  .author-collection-header .author-collection-info {
+    margin-top: -30px;
+    padding: 20px;
+  }
+  .author-collection-header .author-collection-info .md-flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-one
+    .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+  }
+  .author-collection-header
+    .author-collection-info
+    .action
+    ul
+    li
+    .dropdown.style-two
+    .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+  }
+  .author-collection-header .author-collection-info .info {
+    margin-top: 25px;
+  }
+  .activity-sidebar {
+    padding-left: 0;
+  }
+  .market-health-list li {
+    width: 49.9%;
+  }
+  .connect-form {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+  }
+  .login-form {
+    padding-right: 0;
+  }
+  .login-form h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .register-form {
+    padding-left: 0;
+  }
+  .register-form h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .register-form form .description {
+    font-size: 14px;
+  }
+  .products-details-desc {
+    padding-left: 0;
+  }
+  .products-details-desc h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .cart-table {
+    padding: 30px;
+  }
+  .single-blog-post .content h3 {
+    font-size: 18px;
+  }
+  .widget-area {
+    padding-left: 0;
+  }
+  .widget-area .widget {
+    margin-bottom: 25px;
+  }
+  .widget-area .widget .widget-title {
+    font-size: 18px;
+  }
+  .widget-area .widget_nofa_posts_thumb .item .info .title {
+    font-size: 14px;
+  }
+  .widget-area.left-sidebar {
+    padding-right: 0;
+  }
+  .nofa-updates-content {
+    margin-right: 0;
+  }
+  .nofa-updates-content .newsletter-form {
+    padding-right: 155px;
+  }
+  .nofa-updates-content .newsletter-form .input-newsletter {
+    height: 45px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nofa-updates-content .newsletter-form button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+  .app-download-content h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .app-download-content .btn-box .app-store-btn {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 47px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .app-download-content .btn-box .app-store-btn img {
+    left: 10px;
+    width: 30px;
+  }
+  .app-download-content .btn-box .app-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .app-download-content .btn-box .play-store-btn {
+    font-size: 14px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-left: 47px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .app-download-content .btn-box .play-store-btn img {
+    left: 10px;
+    width: 30px;
+  }
+  .app-download-content .btn-box .play-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .nofa-updates-image {
+    margin-left: -20px;
+  }
+  .contact-info-content {
+    padding-right: 0;
+  }
+  .contact-info-content h2 {
+    font-size: 35px;
+  }
+  .contact-info-content ul {
+    margin-top: 25px;
+  }
+  .contact-info-content ul li {
+    margin-bottom: 25px;
+  }
+  .contact-info-content ul li h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .contact-form {
+    padding: 40px;
+  }
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main-banner-content {
+    max-width: 500px;
+  }
+  .main-banner-content h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  .main-banner-content .btn-box {
+    margin-top: 20px;
+  }
+  .main-banner-nfts-items .title span {
+    font-size: 15px;
+  }
+  .main-banner-nfts-items .title span::before {
+    top: 3px;
+    left: 0;
+  }
+  .main-banner-nfts-items
+    .col-lg-6:nth-child(2)
+    .single-banner-nfts-item
+    .content {
+    padding: 10px 5px 20px;
+  }
+  .single-banner-nfts-item .content {
+    padding: 20px 5px 10px;
+  }
+  .single-banner-nfts-item .content .author h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .author-collection {
+    margin-right: 10px;
+  }
+  .single-banner-nfts-item .content .author-collection h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .author-collection span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-banner-nfts-item .content .info {
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+  .single-banner-nfts-item .content .info .price h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .price h3 {
+    font-size: 16px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer {
+    margin-left: 10px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer h6 {
+    font-size: 14px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 10px;
+  }
+  .single-banner-nfts-item
+    .content
+    .info
+    .countdown-timer
+    .clockdiv
+    .smalltext {
+    font-size: 13px;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv span {
+    margin-bottom: 2px;
+    font-size: 16px;
+  }
+  .single-banner-nfts-item .content .bid-btn {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .single-create-sell-box {
+    padding: 25px;
+  }
+  .app-download-content .btn-box .app-store-btn {
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 15px;
+  }
+  .app-download-content .btn-box .app-store-btn img {
+    left: 15px;
+    width: 35px;
+  }
+  .app-download-content .btn-box .app-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .app-download-content .btn-box .play-store-btn {
+    font-size: 15px;
+    margin-left: 5px;
+    padding-left: 60px;
+    padding-right: 15px;
+  }
+  .app-download-content .btn-box .play-store-btn img {
+    left: 15px;
+    width: 35px;
+  }
+  .app-download-content .btn-box .play-store-btn span {
+    margin-bottom: 0;
+    font-size: 13px;
+  }
+  .nfts-area .container-fluid {
+    max-width: 1140px;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    padding-right: var(--bs-gutter-x, 0.75rem);
+  }
+  .single-nfts-box .image .info {
+    padding: 14px;
+  }
+  .single-nfts-box .image .info .author span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-nfts-box .image .info .author-collection span {
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  .single-nfts-box .content {
+    padding: 25px 0 15px;
+  }
+  .single-nfts-box .content .info .price h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .price h3 {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .countdown-timer h6 {
+    font-size: 14px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 8px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv span {
+    font-size: 15px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .smalltext {
+    font-size: 13px;
+  }
+}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+  .main-banner-area .container-fluid {
+    max-width: 2000px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .main-banner-funfacts {
+    left: 100px;
+  }
+  .main-banner-nfts-items {
+    margin-left: 0;
+  }
+  .single-banner-nfts-item .content .info .countdown-timer .clockdiv .timer {
+    margin-left: 20px;
+  }
+  .single-banner-nfts-item
+    .content
+    .info
+    .countdown-timer
+    .clockdiv
+    .timer:first-child {
+    margin-left: 0;
+  }
+  .banner-area .container-fluid {
+    max-width: 2000px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .banner-content {
+    max-width: 720px;
+    margin-left: auto;
+  }
+  .nfts-area .container-fluid {
+    max-width: 2000px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .single-nfts-box .image .info {
+    padding: 25px 30px;
+  }
+  .single-nfts-box .image .info .author-collection {
+    margin-right: 30px;
+  }
+  .single-nfts-box .content {
+    padding: 25px 25px 15px;
+  }
+  .single-nfts-box .content .info .price h3 {
+    font-size: 22px;
+  }
+  .single-nfts-box .content .info .countdown-timer {
+    margin-left: 15px;
+  }
+  .single-nfts-box .content .info .countdown-timer .clockdiv .smalltext {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
+
+.default-btn::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  border-radius: 0px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border: 1px solid white;
+}
+
+/* web view 1440px*/
+@media only screen and (min-width: 1024px) {
+  .web-screen {
+    font-size: 16px !important;
+  }
+  .partner-ship {
+    height: 200px !important;
+    width: 150px !important;
+  }
+  .contact-info-content ul li .icon {
+    width: 60px;
+    height: 70px;
+    font-size: 60px;
+  }
+  /* .nav-logo{
+    width: 100 !important;
+  } */
+}
+/* .pic .image img {
+  width: 400px !important;
+  height: 400px !important;
+  object-fit: cover;
+} */
+@media only screen and (min-width: 767px) and (max-width: 2561px) {
+  .pic .image img {
+    width: 400px !important;
+    height: 400px !important;
+    object-fit: cover;
+  }
+}

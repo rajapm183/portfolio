@@ -1,0 +1,162 @@
+.preloader-area {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  position: fixed;
+  background-color: var(--whiteColor);
+}
+
+.preloader-area .preloader {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.preloader-area .preloader .loader {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border: 2px solid var(--blackColor);
+  -webkit-animation: animate 2.6s linear infinite;
+          animation: animate 2.6s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.preloader-area .preloader .loader::before, .preloader-area .preloader .loader::after {
+  top: 7px;
+  left: 7px;
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 2px solid var(--blackColor);
+  -webkit-animation: animate_1 1.3s linear infinite;
+          animation: animate_1 1.3s linear infinite;
+  /* animation-direction: reverse; */
+}
+
+.preloader-area .preloader .loader::after {
+  top: -15px;
+  left: -15px;
+  width: 76px;
+  height: 76px;
+}
+
+.preloader-area .preloader .waviy {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  /* -webkit-box-reflect: below -48px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
+  font-size: 60px;
+  font-weight: 700;
+  font-family: var(--headingFontFamily);
+}
+
+.preloader-area .preloader .waviy span {
+  position: relative;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+  display: inline-block;
+  color: var(--blackColor);
+  -webkit-animation: waviy 1s infinite;
+          animation: waviy 1s infinite;
+}
+
+.preloader-area .preloader .waviy span:nth-child(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.preloader-area .preloader .waviy span:nth-child(3) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.preloader-area .preloader .waviy span:nth-child(4) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.preloader-area.deactivate {
+  display: none;
+}
+
+@-webkit-keyframes waviy {
+  0%, 40%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes animate_1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animate_1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .preloader-area .preloader .waviy {
+    font-size: 45px;
+  }
+}
+/*# sourceMappingURL=preloader.css.map */
