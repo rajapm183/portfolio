@@ -1,0 +1,46 @@
+
+  
+  .wrapper{
+    border:white;
+    border-radius: 5px;
+    position:relative;
+    top:0;
+    /* height:20%; */
+  }
+  
+  .title{
+    margin: 0 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .open{
+    padding: 0;
+    border:0;
+    margin: 0;
+    background-color:rgb(246, 249, 250);
+  }
+  
+  .arrow-dw{
+    transform: rotate(180deg);
+    float: right;
+    color:black;
+  }
+  
+  .arrow{
+    float: right;
+    color: black;
+    
+  }
+  
+  @media(max-width:500px){
+    .title{
+      font-size: 1rem;
+    }
+  }
+  
+  @media(max-width:350px){
+    .title{
+      font-size: 0.8rem;
+    }
+  }
