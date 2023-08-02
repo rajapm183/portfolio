@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b313033a.css",
+    "main.js": "/portfolio/static/js/main.d43ea762.js",
+    "static/media/blob-scene-dark.svg": "/portfolio/static/media/blob-scene-dark.fd6d7a357b900970ce1f.svg",
+    "index.html": "/portfolio/index.html",
+    "main.b313033a.css.map": "/portfolio/static/css/main.b313033a.css.map",
+    "main.d43ea762.js.map": "/portfolio/static/js/main.d43ea762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b313033a.css",
+    "static/js/main.d43ea762.js"
+  ]
+}
