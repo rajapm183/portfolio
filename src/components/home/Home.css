@@ -1,0 +1,52 @@
+.home {
+  background-image: url("../../assets/blob-scene-dark.svg");
+  background-size: cover;
+  color: white;
+  padding: 50px 40px 40px 40px;
+  min-width: 100%;
+}
+
+.home-left-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-left-container > div > h1 {
+  margin-bottom: 5px;
+}
+.home-left-container > div > button {
+  margin-top: 15px;
+  padding: 5px 33px;
+  color: #aeea00;
+  background-color: #161625;
+  border: 1px solid #aeea00;
+}
+.home-left-container > div > button:hover {
+  opacity: 0.8;
+  color: white;
+  background-color: #00888f;
+  border: 1px solid #00888f;
+  border-radius: 7px;
+}
+
+.home-right-container > img {
+  width: 80%;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.home-icon {
+  margin-top: 15px;
+}
+.home-icon > span {
+  margin: 0 4px;
+}
+.home-icon > span:hover {
+  color: #00888f;
+}
+.hi {
+  color: #017a9c;
+}
+.type {
+  color: "red" !important;
+}
